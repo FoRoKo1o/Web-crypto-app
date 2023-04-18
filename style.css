@@ -1,0 +1,72 @@
+#coinsTableBody img{
+    width: 15px;
+}
+#modalTitle img{
+    width: 30px;
+}
+#coinsTable{
+    width: 100%;
+}
+tr{
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    background-color: rgb(87, 87, 87);
+}
+td{
+    padding: 10px;
+    border-bottom: 2px solid rgb(196, 196, 196) ;
+}
+tr:nth-child(even){
+    background-color: rgb(29, 29, 29);
+}
+.table_row:hover{
+    cursor: pointer;
+    background-color: rgb(196, 196, 196);
+    transition: 1s;
+}
+th{
+    width: 14,2%;
+    padding: 10px;
+}
+th:hover{
+    background-color: rgb(44, 89, 33);
+    transition: 1s;
+    cursor: pointer;
+}
+#searchBar{
+    background-color:  rgb(83, 157, 65);
+    width: 80%;
+    float: left;
+}
+#searchCount{
+    background-color:  rgb(83, 157, 65);
+    width: 20%;
+    float: right;
+}
+#tableHeader{
+    background-color: rgb(103, 167, 87);
+    font-size: 160%;
+}
+
+.navbar-text{
+    font-weight: bolder;
+}
+#favoriteNumber{
+    width: 5%;
+    height: 5%;
+    border-radius: 100%;
+    font-size: smaller;
+    display: inline-block;
+    text-align: center;
+}
+html{
+    background-color: rgb(87, 87, 87);
+}
+#chart{
+    padding-top: 5%;
+}
+.modal-content{
+    padding: 0% 5% 0% 5%;
+}
